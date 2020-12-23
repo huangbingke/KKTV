@@ -1,0 +1,28 @@
+PODS:
+  - IJKMediaFramework (0.1.5)
+  - ZFPlayer/AVPlayer (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (4.0.1):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.0.1)
+  - ZFPlayer/ijkplayer (4.0.1):
+    - IJKMediaFramework
+    - ZFPlayer/Core
+
+DEPENDENCIES:
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+  - ZFPlayer/ijkplayer
+
+SPEC REPOS:
+  trunk:
+    - IJKMediaFramework
+    - ZFPlayer
+
+SPEC CHECKSUMS:
+  IJKMediaFramework: f1119f6324c96bc4654f3045a5beaa95ba0596c0
+  ZFPlayer: f88787c815f7b0801279c42f131a89e2823e669e
+
+PODFILE CHECKSUM: eb050c9e95a17d98250bc8a8ab9dd6cd334e398a
+
+COCOAPODS: 1.9.1
